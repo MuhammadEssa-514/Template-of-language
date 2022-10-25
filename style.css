@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#sheet {
+
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+}
+
+.wallpaper {
+    color: red;
+    cursor: pointer;
+    font-size: 47px;
+    cursor: wait;
+
+
+}
+
+.list {
+    display: flex;
+    color: greenyellow;
+    justify-content: space-between;
+    font-size: 24px;
+
+}
+
+.list li {
+    cursor: pointer;
+    list-style: none;
+    margin-left: 47px;
+    padding: 10px;
+
+
+
+
+}
+
+.list li a:hover {
+    border-bottom: 2px solid red;
+    border-radius: 100px;
+    border-style: double;
+    color: red;
+
+
+}
+
+#para1 {
+    background-image: url(hacker.jpg);
+    background-size: 1450px;
+    height: 92vh;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 30px;
+
+}
+
+.button1 {
+    color: greenyellow;
+    font-size: 27px;
+    margin-left: 500px;
+    border-radius: 50px;
+    font-family: 'Lucida Sans', ;
+    background-color: transparent;
+
+}
+
+.button1:hover {
+    border-radius: 0%;
+    color: greenyellow;
+    background-color: red;
+    padding: 10px;
+    border-radius: 50px;
+    transition: all 1s;
+
+}
+
+.button2 {
+    color: greenyellow;
+    font-size: 27px;
+    margin-left: 10px;
+    border-radius: 50px;
+    font-family: 'Lucida Sans', ;
+    background-color: transparent;
+}
+
+.button2:hover {
+    border-radius: 0%;
+    color: greenyellow;
+    background-color: red;
+    padding: 10px;
+    border-radius: 50px;
+    transition: all 1s;
+}
+
+.button3 {
+    color: greenyellow;
+    font-size: 27px;
+    margin-left: 10px;
+    border-radius: 50px;
+    font-family: 'Lucida Sans', ;
+    background-color: transparent;
+}
+
+.button3:hover {
+    border-radius: 0%;
+    transition: all 1s;
+    color: greenyellow;
+    background-color: red;
+    padding: 10px;
+    border-radius: 50px;
+}
+footer{
+    background-color:rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium';
+    cursor: pointer;
+}
